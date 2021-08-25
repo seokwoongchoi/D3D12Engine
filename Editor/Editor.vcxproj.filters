@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ImGui\Source\imconfig.h" />
+    <ClInclude Include="ImGui\Source\imgui.h" />
+    <ClInclude Include="ImGui\Source\imgui_internal.h" />
+    <ClInclude Include="ImGui\Source\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\Source\imstb_textedit.h" />
+    <ClInclude Include="ImGui\Source\imstb_truetype.h" />
+    <ClInclude Include="ImGui\stb_image.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx12.h" />
+    <ClInclude Include="ImGui\ImGuizmo.h" />
+    <ClInclude Include="ImGui\Blueprints\ax\Drawing.h" />
+    <ClInclude Include="ImGui\Blueprints\ax\Interop.h" />
+    <ClInclude Include="ImGui\Blueprints\ax\Math2D.h" />
+    <ClInclude Include="ImGui\Blueprints\ax\Widgets.h" />
+    <ClInclude Include="ImGui\NodeEditor\Include\imgui_node_editor.h" />
+    <ClInclude Include="ImGui\NodeEditor\Source\crude_json.h" />
+    <ClInclude Include="ImGui\NodeEditor\Source\imgui_bezier_math.h" />
+    <ClInclude Include="ImGui\NodeEditor\Source\imgui_canvas.h" />
+    <ClInclude Include="ImGui\NodeEditor\Source\imgui_extra_math.h" />
+    <ClInclude Include="ImGui\NodeEditor\Source\imgui_node_editor_internal.h" />
+    <ClInclude Include="ImGui\Blueprints\ax\Builders.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ImGui\Source\imgui.cpp" />
+    <ClCompile Include="ImGui\Source\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\Source\imgui_widgets.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="EditorMain.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="ImGui\Source\imgui_demo.cpp" />
+    <ClCompile Include="ImGui\Source\imgui_tables.cpp" />
+    <ClCompile Include="ImGui\ImGuizmo.cpp" />
+    <ClCompile Include="ImGui\Blueprints\ax\Drawing.cpp" />
+    <ClCompile Include="ImGui\Blueprints\ax\Widgets.cpp" />
+    <ClCompile Include="ImGui\NodeEditor\Source\crude_json.cpp" />
+    <ClCompile Include="ImGui\NodeEditor\Source\imgui_canvas.cpp" />
+    <ClCompile Include="ImGui\NodeEditor\Source\imgui_node_editor.cpp" />
+    <ClCompile Include="ImGui\NodeEditor\Source\imgui_node_editor_api.cpp" />
+    <ClCompile Include="ImGui\Blueprints\ax\Builders.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ImGui\Blueprints\ax\Math2D.inl" />
+    <None Include="ImGui\NodeEditor\Source\imgui_bezier_math.inl" />
+    <None Include="ImGui\NodeEditor\Source\imgui_extra_math.inl" />
+    <None Include="ImGui\NodeEditor\Source\imgui_node_editor_internal.inl" />
+  </ItemGroup>
+</Project>
